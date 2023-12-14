@@ -1,6 +1,6 @@
 /* Start Global Ruls  */
 :root{
-    --main-color:#5dc5f5;
+    --main-color:#f5cb57;
     --transparent-color:#0f748f;
 }
 *{
@@ -61,7 +61,7 @@ header{
     width: 100%;
     left: 0;
     z-index: 100;
-    background-color: orangered;
+    background-color: black;
 }
 header .contanier{
     display: flex;
@@ -159,4 +159,9 @@ header nav ul li a:hover{
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+}
+header nav  .icon i{
+    font-size: 25px;
+    color: white;
+    margin: 20px;
 }
