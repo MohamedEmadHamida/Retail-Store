@@ -1,7 +1,7 @@
 /* Start Global Ruls  */
 :root{
     --main-color:#f5cb57;
-    --transparent-color:#0f748f;
+    --text-color:#333;
 }
 *{
     -webkit-box-sizing: border-box;
@@ -148,7 +148,7 @@ header nav  .icon i:hover{
 }
 .signup-container p{
     font-size: 16px;
-    color: #333;
+    color: var(--text-color);
     margin-bottom: 30px;
     margin-top: 10px;
 }
@@ -167,7 +167,7 @@ label {
 input {
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #333;
+    border: 1px solid var(--text-color);
     border-radius: 4px;
 }
 
@@ -185,7 +185,7 @@ button:hover {
 }
 .log {
     margin-top: 10px;
-    color: #333;
+    color: var(--text-color);
 }
 .signup-image {
     flex: 1;
@@ -194,7 +194,11 @@ button:hover {
 
 .signup-image img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 /* End  section */
