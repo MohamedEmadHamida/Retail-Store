@@ -69,15 +69,6 @@ header .contanier{
     align-items: center;
     position: relative;
 }
-header .contanier::before{
-    content: "";
-    position: absolute;
-    height: 1px;
-    background-color: #a2a2aa;
-    width: calc(100% - 30px);
-    left: 15px;
-    bottom: 0;
-}
 header .logo img{
     height: 50px;
 }
@@ -103,12 +94,16 @@ header nav ul li .active,
 header nav ul li a:hover{
     border-bottom: 2px solid var(--main-color);
     color: var(--main-color);
-    transition: 0.5s;
+    transition: 0.2s;
     transform: translateX(10px);
     -webkit-transform: translateX(10px);
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 header nav  .icon{
     margin-left: 20px;
@@ -131,3 +126,10 @@ header nav  .icon i:hover{
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
 }
+/* End Header */
+/* start  section */
+.section{
+    display: flex;
+    margin: 20px;
+}
+/* End  section */
