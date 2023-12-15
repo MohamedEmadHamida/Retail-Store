@@ -55,6 +55,12 @@ ul{
 }
 /* End Global Ruls  */
 /* Satrt header  */
+#sales_bar {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
 header{
     position: absolute;
     width: 100%;
